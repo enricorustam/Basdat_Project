@@ -1,0 +1,9 @@
+Business Process
+Di sebuah kota terdapat suatu bank yang memiliki banyak nasabah. Syarat menjadi nasabah harus memiliki atribut Id nasabah, Nama nasabah, No telfon, dan alamat nasabah tersebut. Bank tersebut memiliki banyak cabang di beberapa tempat. Setiap nasabah bisa memiliki banyak rekening dengan atribut nomor rekening sebagai pembeda antar rekening, nama rekening, dan saldo rekening tersebut. Selain itu, Didalam sistem bank tersebut memiliki petugas yang di bagi menjadi 2, yaitu Teller dan Costumer Service. Teller memiliki atribut Id Teller yang membedakan dengan petugas Costumer service dengan atribut Id Costumer Service. Nasabah bank tersebut dapat meminjam berupa cicilan berulang kali. Untuk meminjam di cabang, harus memiliki kode cabang, nama cabang, dan alamat cabang tersebut. 
+
+Business Rule
+- Nasabah memiliki banyak rekening
+- Nasabah dapat dilayani oleh banyak petugas
+- Nasabah bisa meminjam dengan beberapa kali cicilan
+- Cabang dapat dipinjam oleh banyak nasabah
+- Petugas terdiri dari Teller dan Costumer Service

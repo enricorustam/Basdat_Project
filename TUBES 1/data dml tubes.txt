@@ -1,0 +1,115 @@
+A. MASTER TABLE
+
+1. nasabah (buat 20 data)
+
+id nasabah: 1105423-0
+nama : Ahmad fauzi
+no. telp : 081214538421
+alamat : jl. jendral ahmad yani, kec brebes, kab cikulat, bandung
+
+id nasabah: 1105423-1
+nama : Cristianto Putra
+no.telp : 085284759693
+alamat : jl. soekarno hatta, bandung
+
+2. petugas(buat 20 data)
+
+id petugas: P321
+nama: Hendri Mayoni
+no.telp : 081345834943
+alamat : jl. rusa kambangan, kec mambai, bandung
+
+id petugas: P322
+nama : Mahmud Syamsudin
+no.telp :08773482949
+alamat : jl. bung hatta, cimahi
+
+3. rekening(buat 20 data)
+
+no. rekening : 130001324560
+nama rekening : ahmad
+saldo : 13000000
+
+no. rekening : 130001345671
+nama rekening : cris
+saldo : 24000000
+
+4. Akun(buat 20 data)
+
+id akun : D4321
+nama akun : Ahmad fauzi
+
+id akun : D4322
+nama akun : cristianto putra
+
+5. cabang(buat 20 data)
+
+kode cabang : C5671
+alamat : jl. Soekarno hatta, bandung
+nama cabang : bank cabang soekarno hatta
+
+kode cabang : C5672
+alamat : jl. ahmad yani, kab parongrong, bandung
+nama cabang : bank cabang parongrong
+
+B. TABLE BIASA
+
+6.  Memiliki (buat 10 data)
+
+id kepemilikan: M123
+no. rekening : 130001324560
+id nasabah : 1105423-0
+
+id kepemilikan :M134
+no. rekening :
+id nasabah :
+
+7. melayani (buat 10 data)
+
+id melayani : PM130
+id kepemilikan : M123
+id petugas : P321
+
+8. Teller (buat 10 data)
+
+id Petugas : P321
+id Teller : T751
+
+id Petugas : 
+id Teller : T752
+
+9. CS (buat 10 data)
+
+id petugas : P322
+id CS : CS951
+
+10.Tabungan (buat 10 data)
+
+id_akun : D4321
+suku bunga : 1000000
+
+11. Rekening Giro
+
+id_akun : D4322
+jumlah cerukan : 3000000
+
+12. Peminjaman (buat 10 data)
+
+No. peminjaman : 10091
+id nasabah : 1105423-0
+kode cabang : C5671
+tanggal peminjaman : 1 januari 2016
+jumlah peminjaman : 12000000
+
+13. Pembayaran (buat 10 data)
+
+no. peminjaman : 10091
+no. pembayaran : 100261
+jumlah pembayaran : 5000000
+tanggal pembayaran : 26 april 2016
+
+14. Depositor (buat 10 data)
+
+id depositor : R551
+id nasabah : 1105423-0
+id akun : D4322
